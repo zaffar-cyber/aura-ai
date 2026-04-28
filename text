@@ -1,0 +1,16 @@
+# 1. Install PHPMailer
+composer require phpmailer/phpmailer
+
+# 2. Set your Gmail App Password in config.php
+# (Google Account → Security → App Passwords → generate one)
+
+# 3. Put project inside htdocs/attendai or public_html/attendai
+
+# 4. Visit http://localhost/attendai/index.php
+
+# 5. Admin login: admin@attendai.com / admin123
+#    → Create a class first (e.g. "CS-A", Semester 3)
+#    → Register teachers + students via register.php
+#    → Teacher logs in → opens attendance window
+#    → Students go to take_attendance.php and scan face
+#    → Close window → absent emails fire automatically
