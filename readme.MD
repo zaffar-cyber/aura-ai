@@ -2,6 +2,8 @@ AuraAI — AI-Powered Smart Attendance System
 Live Project: superdevs.co.in/test
 Built by: SuperDevs
 Tech Stack: PHP · Bootstrap 5 · JSON · Face-API.js · PHPMailer · IST Timezone
+admin id: admin@admin.com
+password: admin123
 
 Overview
 AuraAI is a face recognition–based student attendance management system designed for educational institutions. It eliminates manual roll calls by using AI-powered facial recognition directly in the browser — no mobile app or special hardware needed. Teachers open a timed attendance window, students scan their faces on a shared device, and absent students automatically trigger parent email notifications via PHPMailer.
