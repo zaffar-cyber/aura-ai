@@ -3,8 +3,8 @@ date_default_timezone_set('Asia/Kolkata'); // IST — add this line
 if (session_status() === PHP_SESSION_NONE) session_start();
 
 // ─── Site Settings ──────────────────────────────────────
-define('SITE_NAME',    'AttendAI');
-define('SITE_URL',     'http://localhost/HACKATHON');
+define('SITE_NAME',    'AuraAi');
+define('SITE_URL',     'https://superdevs.co.in/test');
 
 // ─── Mail Settings (change these) ───────────────────────
 define('SMTP_HOST',    'smtp.hostinger.com');
@@ -12,7 +12,7 @@ define('SMTP_USER',    'suhan@thehappytails.co.in');   // ← your Gmail
 define('SMTP_PASS',    'Suhannanil@123');     // ← Gmail App Password
 define('SMTP_PORT',    587);
 define('MAIL_FROM',    'suhan@thehappytails.co.in');
-define('MAIL_NAME',    'AttendAI System');
+define('MAIL_NAME',    'AuraAi System');
 
 // ─── Admin Credentials ───────────────────────────────────
 define('ADMIN_EMAIL',  'admin@admin.com');

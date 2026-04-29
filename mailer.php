@@ -1,5 +1,5 @@
 <?php
-// Place this in the root of attendai/
+// Place this in the root of AuraAi/
 // Requires: composer require phpmailer/phpmailer
 // OR manually place PHPMailer src/ files in vendor/phpmailer/phpmailer/src/
 
@@ -81,7 +81,7 @@ function build_absent_email(
               Attendance Alert
             </h1>
             <p style="margin:6px 0 0;color:#c4b5fd;font-size:14px">
-              AttendAI Smart Attendance System
+              AuraAi Smart Attendance System
             </p>
           </td>
         </tr>
@@ -146,7 +146,7 @@ function build_absent_email(
             </p>
             <p style="margin:0;color:#374151;font-size:14px">
               Regards,<br>
-              <strong>AttendAI System</strong>
+              <strong>AuraAi System</strong>
             </p>
           </td>
         </tr>
@@ -155,7 +155,7 @@ function build_absent_email(
           <td style="background:#f8fafc;padding:16px 32px;
                      border-top:1px solid #e2e8f0;text-align:center">
             <p style="margin:0;color:#94a3b8;font-size:12px">
-              This is an automated message from AttendAI &mdash; Do not reply directly.<br>
+              This is an automated message from AuraAi &mdash; Do not reply directly.<br>
               Powered by AI Face Recognition Technology.
             </p>
           </td>
